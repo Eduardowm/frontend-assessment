@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.listing-details {
+    display: flex;
+    width: 100%;
+}
+
+.details-column {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 24px;
+}
+
+.location-date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-image {
+    margin-top: 20px;
+}
+
+.property-image img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.property-characteristics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 1px solid #c5c5c5;
+    padding: 16px;
+}
+
+.characteristic {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.characteristic span {
+    font-weight: bold;
+}
+
+.characteristic p {
+    margin-top: 5px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.contact-agent {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.contact-agent h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-now-button,
+.save-property-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3F5CF5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contact-now-button:hover,
+.save-property-button:hover {
+    background-color: #2c448c;
+}
+
+.contact-agent form {
+    background: #d7d7d7;
+    padding: 3rem;
+    text-align: center;
+}
+
+.img-banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
